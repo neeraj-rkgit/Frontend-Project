@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Chaurasiya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2cf87a8af3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Photos/logo.jpg" class="logo" width="100px" height="50px">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" class="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" class="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I am <span> Neeraj </span> <br>Chaurasiya from India</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Photos/neeraj.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Neeraj Chaurasiya and I'm from Gorakhpur 
+                        I am pursuing B.tech (Bachelor of Technology) 
+                        in the stream of Computer Science and Engineering
+                        at Raj Kumar Goel Institute of Technology , Ghaziabad
+                        (At this time I am a 3rd Year B.tech students)</p>
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Software Development</span> <br>Designing and maintaining software</li>
+                                <li><span>Web Development</span> <br>creates, writes, tests, and 
+                                    documents websites, applications or software.</li>
+                                <li><span>UI/UX</span> <br> Designing Web/App interfaces</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Fresher</span> <br>I am looking for an entry-level position
+                                     to kickstart my career in the Software Engineering</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019</span> <br> High School (Score - 90.6%)</li>
+                                <li><span>2021</span> <br>Senior Secondary Education (Score - 94.6%)</li>
+                                <li><span>2026</span> <br> Bachelor of Technology (Average 80%) </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Services -->
+
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2>Software Development</h2>
+                    <p>Custom Software Development <br>
+                        Web and Mobile App Development <br>
+                        Software Testing and Quality Assurance (QA) <br>
+                        Maintenance and Support</p>
+                        <br>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web Development</h2>
+                    <p>Website Design and Development <br> 
+                    Front-End Development <br>
+                    Back-End Development <br>
+                    Maintenance and Optimization</p>
+                    <br>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uikit"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>User Research & Analysis <br>
+                        Wireframing & Prototyping <br>
+                        Visual Design & Branding <br>
+                        Usability Testing & Iteration</p>
+                        <br>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+<!-- Portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Photos/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the talented people around thw world.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Photos/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connect you to the talented people around thw world.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Photos/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connect you to the talented people around thw world.
+                        Download it from play store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-regular fa-envelope"></i> neerajchaurasiya390@gmail.com</p>
+                <p> <i class="fa-solid fa-address-book"></i> 9569621645</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/neerajchaurasiya/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/neerajx__07/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/neeraj.chaurasiya.507464/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/neeraj-rkgit"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Photos/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="'Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169; Neeraj Chaurasiya <i class="fa-solid fa-heart"></i> . All Rights Reserved </p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
