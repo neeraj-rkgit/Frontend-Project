@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: Arial,sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+.container{
+    width: 400px;
+    height: min-content;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box input{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 80%;
+    text-transform: capitalize;
+    background-color: rgb(224, 227, 230);
+    border-radius: 5px;
+}
+.search-box button{
+    cursor: pointer;
+    font-size: 20px;
+}
+.search-box button:hover{
+    color: black;
+    background-color: black;
+}
+.weather-body img{
+    width: 60%;
+}
+.weather-body{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+.weather-box{
+    margin-block: 20px;
+    text-align: center;
+}
+.weather-box .temperature{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+.weather-box .description{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.weather-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.humidity , .wind{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.humidity{
+    margin-left: 20px;
+}
+.wind{
+    margin-right: 20px;
+}
+.text span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.location-not-found{
+    margin-top: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.location-not-found img{
+    width: 70%;
+}
+
+.location-not-found h1{
+    font-size: 20px;
+    color: gray;
+    margin-block-end: 15px;
+}
+#head-on{
+    color: brown;
+    margin-bottom: 30px;
+}
