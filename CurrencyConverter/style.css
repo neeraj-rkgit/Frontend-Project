@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: gray;  
+}
+.converter-container{
+    background-color: white;
+    font-size: medium;
+    border-radius: 8px;
+    box-shadow: 6px 6px 6px red,-6px 6px 6px rgb(102, 204, 6);
+    padding: 25px;
+    text-align: center;
+}
+.converter-container h1{
+    font-size: 30px;
+    text-decoration: overline;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.converter-container .input-container:focus-within{
+    border-color: blueviolet;
+    
+}
+.converter-container .input-container{
+    border: 2px solid rgb(190, 178, 178) ;
+    border-radius: 4px;
+    margin-block: 20px;
+}
+.converter-container .input-container input,
+.converter-container .input-container select{
+    width: 150px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.converter-container .arrow{
+    transform: rotate(90deg);
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.converter-container .result{
+    margin-top: 25px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+/* Responsive Code */
+@media screen and (max-width:440px) {
+    .converter-container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .converter-container h1{
+        font-size: 20px;
+    }
+    .converter-container .input-container input,
+    .converter-container .input-container select{
+        border: 1px solid red;
+        margin-block: 4px;
+        width: 100%;
+    }
+}
